@@ -19,7 +19,7 @@ initializeDatabase().catch(err => {
   process.exit(1);
 });
 
-// Middleware
+// Middleware setup
 app.use(cors());
 app.use(express.json());
 
